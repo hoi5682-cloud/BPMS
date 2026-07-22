@@ -1,0 +1,2470 @@
+{
+  "vertices": [
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-30",
+      "parent": "1",
+      "value": "",
+      "class": "exception",
+      "x": 3967.0,
+      "y": 3142.0,
+      "w": 157.06,
+      "h": 113.23
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-29",
+      "parent": "1",
+      "value": "",
+      "class": "exception",
+      "x": 2772.0,
+      "y": 3375.0,
+      "w": 157.06,
+      "h": 113.23
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-15",
+      "parent": "1",
+      "value": "",
+      "class": "exception",
+      "x": 2602.0,
+      "y": 2114.0,
+      "w": 157.06,
+      "h": 113.23
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-2",
+      "parent": "1",
+      "value": "[R8,9] 고객유상수리 CPR(Customer Paid Repair) - Quotation-Based(비계약품), Outsourcing(Vendor Repair Service)",
+      "class": "text",
+      "x": 466.0,
+      "y": 512.0,
+      "w": 682.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-3",
+      "parent": "1",
+      "value": "수리대상품 선반출 > 현물 확인 및 고장판단 > 반송 > 해외벤더 측 견적서 발행> 고객사 시스템 견적 제출 > 수리 > PO 발행 > 해당 건의 실 견적서 전달/변동사항 발생 시 고객사 PO 취소, 견적 재제출 > 현물 TEK(Alps) 도착 > 납품",
+      "class": "text",
+      "x": 482.0,
+      "y": 540.0,
+      "w": 1230.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-4",
+      "parent": "1",
+      "value": "",
+      "class": "lane",
+      "x": 458.0,
+      "y": 580.0,
+      "w": 4960.0,
+      "h": 5660.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-5",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "판매예측(데이터 입력)\nSales Forecast",
+      "class": "lane",
+      "x": 0.0,
+      "y": 40.0,
+      "w": 200.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-6",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "고객문의/견적요청(고객상담등록)\nInquiry/Asking Quotation",
+      "class": "lane",
+      "x": 200.0,
+      "y": 40.0,
+      "w": 350.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-8",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "고객으로부터 Repair 의뢰",
+      "class": "other",
+      "x": 112.5,
+      "y": 83.0,
+      "w": 125.0,
+      "h": 70.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-12",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "수리품 송부\n고객사 > TEK",
+      "class": "task",
+      "x": 95.0,
+      "y": 870.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-13",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "Quotation",
+      "class": "document",
+      "x": 151.0,
+      "y": 1820.0,
+      "w": 60.0,
+      "h": 60.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-16",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "SAP",
+      "class": "lane",
+      "x": 112.5,
+      "y": 210.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-17",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-16",
+      "value": "FSR01000",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-18",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-16",
+      "value": "Sales Order",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-21",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "SAP",
+      "class": "lane",
+      "x": 100.0,
+      "y": 700.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-22",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-21",
+      "value": "FSR0120",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-23",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-21",
+      "value": "Goods Receipt",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-24",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "Expedite Requested",
+      "class": "task",
+      "x": 169.5,
+      "y": 1700.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-6",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "고객의 CPR 수리요청",
+      "class": "text",
+      "x": 206.0,
+      "y": 169.0,
+      "w": 134.0,
+      "h": 26.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-9",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "고객수리대상품 반출",
+      "class": "text",
+      "x": 189.0,
+      "y": 663.0,
+      "w": 129.0,
+      "h": 26.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-21",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "긴급건",
+      "class": "text",
+      "x": 251.0,
+      "y": 1667.0,
+      "w": 60.0,
+      "h": 30.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-22",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "비긴급건",
+      "class": "text",
+      "x": 218.0,
+      "y": 1814.0,
+      "w": 70.0,
+      "h": 30.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-23",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "수리 진행 동의를 확인하기 위한고객 견적서 확인",
+      "class": "text",
+      "x": 2.0,
+      "y": 2105.0,
+      "w": 187.0,
+      "h": 41.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-24",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "고객 정식 PO 발행",
+      "class": "task",
+      "x": 107.0,
+      "y": 2414.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-25",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-6",
+      "value": "PO#",
+      "class": "document",
+      "x": 219.0,
+      "y": 2526.0,
+      "w": 42.5,
+      "h": 42.5
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-25",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "투입품목 견적 확인(투입 원가자재 금액 확인)\nEstimated Cost Checking",
+      "class": "lane",
+      "x": 550.0,
+      "y": 40.0,
+      "w": 245.0,
+      "h": 5620.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-3",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-25",
+      "value": "Service CRM",
+      "class": "lane",
+      "x": 52.5,
+      "y": 320.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-4",
+      "parent": "cs2tG7kjCkQaKrPuqIpl-3",
+      "value": "(Repair) CASE 생성",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-5",
+      "parent": "cs2tG7kjCkQaKrPuqIpl-3",
+      "value": "Create Case",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-27",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "고객향 견적 발행(견적서 작성/품의)\nMaking a Quotation",
+      "class": "lane",
+      "x": 795.0,
+      "y": 40.0,
+      "w": 250.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-28",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-27",
+      "value": "견적회답\n(벤더 -> TEK)\nTEK 는 PCD에서 견적을 받아서",
+      "class": "task",
+      "x": 65.0,
+      "y": 1712.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-30",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-27",
+      "value": "견적서 작성\n(TEK -> 고객)",
+      "class": "task",
+      "x": 65.0,
+      "y": 1830.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-32",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-27",
+      "value": "SAP",
+      "class": "lane",
+      "x": 66.0,
+      "y": 1950.0,
+      "w": 140.0,
+      "h": 88.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-33",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-32",
+      "value": "FSR0800",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 24.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-34",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-32",
+      "value": "Reply Delivery Date",
+      "class": "text",
+      "x": 0.0,
+      "y": 50.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-20",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-27",
+      "value": "고객향 견적발행Vendor->TEK->고객",
+      "class": "text",
+      "x": 69.0,
+      "y": 1659.0,
+      "w": 129.0,
+      "h": 41.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-35",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "수주(수주 데이터 입력)\nOrder(Customer PO) Intake",
+      "class": "lane",
+      "x": 1045.0,
+      "y": 40.0,
+      "w": 600.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-37",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "Alternative\nParts",
+      "class": "other",
+      "x": 235.0,
+      "y": 485.0,
+      "w": 150.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-38",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "NO",
+      "class": "text",
+      "x": 215.0,
+      "y": 540.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-40",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "YES",
+      "class": "text",
+      "x": 385.0,
+      "y": 500.0,
+      "w": 50.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-41",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "TEK\n수리품수령",
+      "class": "task",
+      "x": 105.0,
+      "y": 710.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-43",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "VRRE\nInboud Delivery \nOrder 등록\n(입하등록)",
+      "class": "system-task",
+      "x": 105.0,
+      "y": 890.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-45",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "VERRE\nG/R 등록\n(입고등록)",
+      "class": "system-task",
+      "x": 105.0,
+      "y": 1070.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-46",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "Sales Order\ndata",
+      "class": "data",
+      "x": 245.0,
+      "y": 320.0,
+      "w": 120.0,
+      "h": 60.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-47",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "수리품수령\n고객사 > TEK",
+      "class": "task",
+      "x": 394.0,
+      "y": 1080.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-49",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "대체품등록",
+      "class": "task",
+      "x": 394.0,
+      "y": 1260.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-53",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "SAP",
+      "class": "lane",
+      "x": 395.0,
+      "y": 890.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-54",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-53",
+      "value": "FSR0120",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-55",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-53",
+      "value": "Goods Receipt",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-7",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "대체파츠 가능여부",
+      "class": "text",
+      "x": 349.0,
+      "y": 465.0,
+      "w": 117.0,
+      "h": 26.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-10",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "SAP",
+      "class": "lane",
+      "x": 395.0,
+      "y": 1443.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-11",
+      "parent": "cs2tG7kjCkQaKrPuqIpl-10",
+      "value": "SD0708",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-12",
+      "parent": "cs2tG7kjCkQaKrPuqIpl-10",
+      "value": "Parts Delivery",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-13",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-35",
+      "value": "해당 Global Template에서 \n입고 관련 업무 포함 함\n・입하지시\n・입고등록\n・필요한서류 출력\n・제염작업을 했을 경우, 오염작업 신청서가 첨부되어 있음\n※ELC 배송 승인 불필요",
+      "class": "text",
+      "x": 126.0,
+      "y": 1446.0,
+      "w": 256.0,
+      "h": 127.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-56",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "구매요청/제작요청\nPurchase Requisition\nProduction Requisition",
+      "class": "lane",
+      "x": 1645.0,
+      "y": 40.0,
+      "w": 190.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-57",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-56",
+      "value": "ME5A\nPR 등록",
+      "class": "system-task",
+      "x": 23.75,
+      "y": 1610.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-59",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-56",
+      "value": "IW33\nGet\nPurchase requisition #",
+      "class": "system-task",
+      "x": 23.75,
+      "y": 1440.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-60",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-56",
+      "value": "SAP",
+      "class": "lane",
+      "x": 30.0,
+      "y": 1080.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-61",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-60",
+      "value": "FSR0400",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-62",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-60",
+      "value": "Purchase Order",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-63",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-56",
+      "value": "CRM\nSearch SO by RMA",
+      "class": "system-task",
+      "x": 26.75,
+      "y": 1190.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-64",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-56",
+      "value": "IW32 \nService Order 등록\n(Work order entry)",
+      "class": "system-task",
+      "x": 25.5,
+      "y": 1310.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-68",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "",
+      "class": "lane",
+      "x": 1835.0,
+      "y": 40.0,
+      "w": 803.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-69",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-68",
+      "value": "구매오더/생산오더\nPurchase Order\nProduction Order",
+      "class": "lane",
+      "x": 0.0,
+      "y": 0.0,
+      "w": 803.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-73",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "",
+      "class": "other",
+      "x": 55.0,
+      "y": 980.0,
+      "w": 554.57,
+      "h": 365.89
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-76",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "Quotation\nIn CRM",
+      "class": "decision",
+      "x": 250.0,
+      "y": 2379.0,
+      "w": 154.0,
+      "h": 80.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-77",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "CRM\nExport PO price\nWith\nbulk upload format",
+      "class": "task",
+      "x": 487.0,
+      "y": 2581.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-79",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "ME22NPO update",
+      "class": "system-task",
+      "x": 474.0,
+      "y": 2369.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-81",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "Cancellation fee\nQuotation\n completed",
+      "class": "decision",
+      "x": 424.0,
+      "y": 2040.0,
+      "w": 141.0,
+      "h": 80.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-82",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "첫 번째 견적에서, \n취소 수수료를 포함한 \n견적 작성이 완료되면  현 프로세스 취소 후 공식 PO발행.",
+      "class": "text",
+      "x": 473.0,
+      "y": 2150.0,
+      "w": 330.0,
+      "h": 60.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-84",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "NO",
+      "class": "text",
+      "x": 490.0,
+      "y": 2020.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-221",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "SMS\nConfirm Order",
+      "class": "task",
+      "x": 314.0,
+      "y": 1360.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-222",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "without SMS\nSD1550\nIssue PO Form",
+      "class": "task",
+      "x": 314.0,
+      "y": 1500.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-225",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "SMS System 존재",
+      "class": "text",
+      "x": 460.0,
+      "y": 1360.0,
+      "w": 120.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-226",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "SMS System 비존재",
+      "class": "text",
+      "x": 455.0,
+      "y": 1580.0,
+      "w": 130.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-228",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "Receive PO",
+      "class": "task",
+      "x": 917.0,
+      "y": 1510.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-14",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-69",
+      "value": "Service Order 등록 절차과정Service Order -> Vendor 발주",
+      "class": "text",
+      "x": 21.0,
+      "y": 1354.5,
+      "w": 182.0,
+      "h": 41.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-85",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "발주관리(공급업체 소통)\nVendor Communication",
+      "class": "lane",
+      "x": 2638.0,
+      "y": 40.0,
+      "w": 405.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-86",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-85",
+      "value": "Vendor 수리 진행",
+      "class": "task",
+      "x": 131.25,
+      "y": 2369.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-28",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-85",
+      "value": "고객 요청품 수리 Vendor 진행",
+      "class": "text",
+      "x": 116.25,
+      "y": 2331.0,
+      "w": 180.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-87",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "입고관리(원가자재 입고)\nManage receiving stock",
+      "class": "lane",
+      "x": 3043.0,
+      "y": 40.0,
+      "w": 965.0,
+      "h": 5620.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-31",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "",
+      "class": "exception",
+      "x": 465.9699999999998,
+      "y": 2656.77,
+      "w": 157.06,
+      "h": 113.23
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-90",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "Acceptance\nInspection",
+      "class": "decision",
+      "x": 489.0,
+      "y": 2880.0,
+      "w": 119.25,
+      "h": 80.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-91",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "OK",
+      "class": "text",
+      "x": 473.0,
+      "y": 2882.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-99",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "SAP",
+      "class": "lane",
+      "x": 662.0,
+      "y": 2881.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-100",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-99",
+      "value": "FSR0400",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-101",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-99",
+      "value": "Repair-Purchase\norder (Provisional)",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-102",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "If the Inspection results is not good, order\nand deliver again (to supplier)",
+      "class": "text",
+      "x": 629.0,
+      "y": 2840.0,
+      "w": 200.0,
+      "h": 40.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-104",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "Repairs",
+      "class": "other",
+      "x": 672.0,
+      "y": 3170.0,
+      "w": 120.0,
+      "h": 60.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-105",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "SAP",
+      "class": "lane",
+      "x": 662.0,
+      "y": 3260.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-106",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-105",
+      "value": "FSR04020",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-107",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-105",
+      "value": "Repair-Goods\nReceipt from Supplier",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-108",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "Send\nback the NG material to supplier/vendor",
+      "class": "text",
+      "x": 489.0,
+      "y": 3100.0,
+      "w": 180.0,
+      "h": 40.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-110",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "Approval\nrequired",
+      "class": "decision",
+      "x": 329.0,
+      "y": 2990.0,
+      "w": 136.0,
+      "h": 80.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-111",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "NO",
+      "class": "text",
+      "x": 456.0,
+      "y": 2995.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-112",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "GR Posting",
+      "class": "other",
+      "x": 339.0,
+      "y": 3520.0,
+      "w": 150.0,
+      "h": 89.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-114",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "OutsystemsRequest for Approval",
+      "class": "other",
+      "x": 230.0,
+      "y": 3100.0,
+      "w": 120.0,
+      "h": 60.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-115",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "BillingDocument",
+      "class": "document",
+      "x": 289.0,
+      "y": 3170.0,
+      "w": 53.5,
+      "h": 53.5
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-116",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "DeliveryNote",
+      "class": "document",
+      "x": 345.0,
+      "y": 3172.0,
+      "w": 51.25,
+      "h": 51.25
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-117",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "Approval",
+      "class": "other",
+      "x": 230.0,
+      "y": 3240.0,
+      "w": 120.0,
+      "h": 60.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-120",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "Approval\nResult",
+      "class": "decision",
+      "x": 289.0,
+      "y": 3320.0,
+      "w": 119.0,
+      "h": 80.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-121",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "OK",
+      "class": "text",
+      "x": 342.5,
+      "y": 3388.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-233",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "SMS\nAdvance Shipping Notification",
+      "class": "task",
+      "x": 640.75,
+      "y": 2526.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-235",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "VL31NCreate Inbound Delivery\nDocument",
+      "class": "task",
+      "x": 473.25,
+      "y": 2528.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-236",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "3PL System 사용예정이지만 아래는 R2예시",
+      "class": "text",
+      "x": 443.25,
+      "y": 2489.0,
+      "w": 260.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-237",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "Attach documents",
+      "class": "task",
+      "x": 640.75,
+      "y": 2661.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-239",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "EC0220PO Number \nAdd Document info to format",
+      "class": "task",
+      "x": 473.25,
+      "y": 2663.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-241",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "BillingDocument",
+      "class": "document",
+      "x": 703.25,
+      "y": 2770.0,
+      "w": 53.5,
+      "h": 53.5
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-242",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "DeliveryNote",
+      "class": "document",
+      "x": 759.25,
+      "y": 2772.0,
+      "w": 51.25,
+      "h": 51.25
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-243",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "Document management\nSave to server",
+      "class": "task",
+      "x": 306.5,
+      "y": 2663.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-244",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "3PL\nManged",
+      "class": "decision",
+      "x": 164.0,
+      "y": 2673.0,
+      "w": 122.0,
+      "h": 80.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-245",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "SAP",
+      "class": "lane",
+      "x": 150.0,
+      "y": 2781.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-246",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-245",
+      "value": "SD0707",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-247",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-245",
+      "value": "Non-Inventory Delivery",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-253",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "VL31N\nShipping Notification",
+      "class": "system-task",
+      "x": 6.0,
+      "y": 2663.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-33",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "Yes",
+      "class": "text",
+      "x": 396.25,
+      "y": 3070.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-36",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "GoodsReceipt",
+      "class": "document",
+      "x": 437.5,
+      "y": 3615.0,
+      "w": 53.5,
+      "h": 53.5
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-208",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "MRRLInvoice Receipt Creation\n(Invoice Posting)",
+      "class": "other",
+      "x": 338.0,
+      "y": 3736.0,
+      "w": 153.0,
+      "h": 93.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-38",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-87",
+      "value": "Inovoice",
+      "class": "document",
+      "x": 437.5,
+      "y": 3838.0,
+      "w": 53.5,
+      "h": 53.5
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-123",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "매입정산(외상매입금 처리)\nManage AP",
+      "class": "lane",
+      "x": 4008.0,
+      "y": 40.0,
+      "w": 180.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-124",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "배송지시(출고요청)\nDelivery Instruction",
+      "class": "lane",
+      "x": 4188.0,
+      "y": 40.0,
+      "w": 180.0,
+      "h": 5620.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-17",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-124",
+      "value": "",
+      "class": "exception",
+      "x": 17.720000000000255,
+      "y": 1422.39,
+      "w": 157.06,
+      "h": 113.23
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-125",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-124",
+      "value": "SD4440\nCreate Outbound Delivery\n(Subcon Monitor)",
+      "class": "task",
+      "x": 25.0,
+      "y": 1429.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-127",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-124",
+      "value": "3PL SYSTEM / SAP",
+      "class": "lane",
+      "x": 27.5,
+      "y": 3650.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-128",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-127",
+      "value": "???",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-129",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-127",
+      "value": "Get Delivery Order Info from SAP system",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-130",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-124",
+      "value": "DeliveryOrder",
+      "class": "document",
+      "x": 111.0,
+      "y": 3750.0,
+      "w": 50.0,
+      "h": 40.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-213",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-124",
+      "value": "SAP",
+      "class": "lane",
+      "x": 26.25,
+      "y": 1718.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-214",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-213",
+      "value": "SD0708",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-215",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-213",
+      "value": "Delivery Order",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-18",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-124",
+      "value": "OutboundD/O",
+      "class": "document",
+      "x": 118.77999999999975,
+      "y": 1544.6,
+      "w": 56.0,
+      "h": 44.8
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-19",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-124",
+      "value": "Core 품목 견적 확인 위한 To Vendor 발송",
+      "class": "text",
+      "x": 12.779999999999745,
+      "y": 1368.6,
+      "w": 158.0,
+      "h": 41.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-131",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "배송수행(출고 및 납품)\nDelivery/Warehousing",
+      "class": "lane",
+      "x": 4368.0,
+      "y": 40.0,
+      "w": 180.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-132",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-131",
+      "value": "Repair\ncompleted\nOutbound\ndelivery/Billing",
+      "class": "task",
+      "x": 18.75,
+      "y": 2700.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-134",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-131",
+      "value": "SAP",
+      "class": "lane",
+      "x": 20.0,
+      "y": 2380.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-135",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-134",
+      "value": "FSR0420",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-136",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-134",
+      "value": "Goods Receipt from supplier",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-137",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-131",
+      "value": "BillingDocument",
+      "class": "document",
+      "x": 54.0,
+      "y": 2808.0,
+      "w": 53.5,
+      "h": 53.5
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-138",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-131",
+      "value": "DeliveryNote",
+      "class": "document",
+      "x": 110.0,
+      "y": 2810.0,
+      "w": 51.25,
+      "h": 51.25
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-139",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-131",
+      "value": "3PL SYSTEM / SAP",
+      "class": "lane",
+      "x": 21.25,
+      "y": 3650.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-140",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-139",
+      "value": "???",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-141",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-139",
+      "value": "D라벨 부착실물 출고 및 GI처리",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-142",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-131",
+      "value": "GI자재원장",
+      "class": "document",
+      "x": 115.0,
+      "y": 3750.0,
+      "w": 50.0,
+      "h": 40.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-143",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-131",
+      "value": "3PLSystem\nDoc",
+      "class": "document",
+      "x": 35.0,
+      "y": 3750.0,
+      "w": 50.0,
+      "h": 40.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-220",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-131",
+      "value": "I/F",
+      "class": "text",
+      "x": 75.0,
+      "y": 3790.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-145",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "매출(판매오더 생성/재고출고)\nSales Order/GI",
+      "class": "lane",
+      "x": 4548.0,
+      "y": 40.0,
+      "w": 185.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-147",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-145",
+      "value": "SAP",
+      "class": "lane",
+      "x": 27.5,
+      "y": 4056.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-148",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-147",
+      "value": "FSP04030",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-149",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-147",
+      "value": "Billing",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-150",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-145",
+      "value": "Billing",
+      "class": "document",
+      "x": 32.5,
+      "y": 4156.0,
+      "w": 50.0,
+      "h": 40.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-151",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-145",
+      "value": "AR\n회계전표",
+      "class": "document",
+      "x": 117.5,
+      "y": 4156.0,
+      "w": 50.0,
+      "h": 40.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-152",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-145",
+      "value": "SAP\nVF02\nBulk Billling",
+      "class": "system-task",
+      "x": 27.5,
+      "y": 4221.0,
+      "w": 140.0,
+      "h": 80.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-153",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-145",
+      "value": "SAP\nSD0430 \nBilling From \nCreation",
+      "class": "system-task",
+      "x": 27.5,
+      "y": 4346.0,
+      "w": 140.0,
+      "h": 80.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-155",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-4",
+      "value": "매출정산(외상매출금 처리)\nManage AR",
+      "class": "lane",
+      "x": 4733.0,
+      "y": 40.0,
+      "w": 227.0,
+      "h": 5620.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-156",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-155",
+      "value": "",
+      "class": "other",
+      "x": -94.0,
+      "y": 2319.29,
+      "w": 687.0,
+      "h": 360.71
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-172",
+      "parent": "1",
+      "value": "ME21N\nPO 등록\n(해외벤더 발주요청)",
+      "class": "system-task",
+      "x": 2386.25,
+      "y": 2050.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-175",
+      "parent": "1",
+      "value": "Quotation\n견적작성\n해외벤더 -> TEK 견적송부",
+      "class": "task",
+      "x": 2790.0,
+      "y": 2332.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-179",
+      "parent": "1",
+      "value": "정식Customer PO\nRequired\n고객 PO 필요여부",
+      "class": "other",
+      "x": 772.5,
+      "y": 2770.0,
+      "w": 150.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-180",
+      "parent": "1",
+      "value": "YES",
+      "class": "text",
+      "x": 765.0,
+      "y": 2858.0,
+      "w": 50.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-181",
+      "parent": "1",
+      "value": "NO",
+      "class": "text",
+      "x": 910.0,
+      "y": 2778.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-183",
+      "parent": "1",
+      "value": "Cancel Fee 처리PO에서 처리 진행\n(1. Cancel Fee 포함시 정식 PO발행\n2. Cancel Fee 미포함시 TFE재견적 요청(취소수수료 포함하여)",
+      "class": "task",
+      "x": 2460.0,
+      "y": 2650.0,
+      "w": 162.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-184",
+      "parent": "1",
+      "value": "SAP",
+      "class": "lane",
+      "x": 1897.0,
+      "y": 1340.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-185",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-184",
+      "value": "FSR02000",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-186",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-184",
+      "value": "Alternative Part Loan",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-189",
+      "parent": "1",
+      "value": "Service Order 등록 절차과정",
+      "class": "text",
+      "x": 2285.0,
+      "y": 1806.0,
+      "w": 180.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-194",
+      "parent": "1",
+      "value": "SAP",
+      "class": "lane",
+      "x": 672.0,
+      "y": 2327.0,
+      "w": 140.0,
+      "h": 88.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-195",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-194",
+      "value": "FSR0700",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 24.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-196",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-194",
+      "value": "Expedite Order",
+      "class": "text",
+      "x": 0.0,
+      "y": 50.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-198",
+      "parent": "1",
+      "value": "ME22N\nPO Update(I/F update)",
+      "class": "task",
+      "x": 2780.0,
+      "y": 3380.0,
+      "w": 142.5,
+      "h": 100.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-200",
+      "parent": "1",
+      "value": "Yes",
+      "class": "text",
+      "x": 2620.0,
+      "y": 3078.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-201",
+      "parent": "1",
+      "value": "No",
+      "class": "text",
+      "x": 2690.0,
+      "y": 3008.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-202",
+      "parent": "1",
+      "value": "NG",
+      "class": "text",
+      "x": 4088.0,
+      "y": 3508.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-204",
+      "parent": "1",
+      "value": "SAP",
+      "class": "lane",
+      "x": 4163.0,
+      "y": 3670.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-205",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-204",
+      "value": "SD0707",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-206",
+      "parent": "lKX7Av5iq31AJz6Rz6cd-204",
+      "value": "Non-Inventory\nDelivery",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-211",
+      "parent": "1",
+      "value": "NG",
+      "class": "text",
+      "x": 3724.0,
+      "y": 3948.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-216",
+      "parent": "1",
+      "value": "Yes",
+      "class": "text",
+      "x": 2756.0,
+      "y": 2728.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-240",
+      "parent": "1",
+      "value": "SMS System 비사용시",
+      "class": "text",
+      "x": 3950.0,
+      "y": 3253.0,
+      "w": 140.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-248",
+      "parent": "1",
+      "value": "Yes",
+      "class": "text",
+      "x": 3727.0,
+      "y": 3358.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-254",
+      "parent": "1",
+      "value": "NO",
+      "class": "text",
+      "x": 3660.0,
+      "y": 3288.0,
+      "w": 40.0,
+      "h": 30.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-16",
+      "parent": "1",
+      "value": "EmailPO#",
+      "class": "document",
+      "x": 3315.0,
+      "y": 2238.0,
+      "w": 40.0,
+      "h": 40.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-39",
+      "parent": "1",
+      "value": "TEK-> 고객수리완료품 배송",
+      "class": "text",
+      "x": 4699.0,
+      "y": 4215.0,
+      "w": 105.0,
+      "h": 41.0
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-40",
+      "parent": "1",
+      "value": "수리품수령시점Vendor -> TEK",
+      "class": "text",
+      "x": 4867.0,
+      "y": 2937.0,
+      "w": 102.0,
+      "h": 41.0
+    },
+    {
+      "id": "qQqwb9C0IyqC1Awxv46x-1",
+      "parent": "1",
+      "value": "df",
+      "class": "text",
+      "x": 1287.394087357954,
+      "y": 2983.060680042613,
+      "w": 60.0,
+      "h": 30.0
+    },
+    {
+      "id": "ew0K_Sm-rx6IgrEJtpmO-5",
+      "parent": "1",
+      "value": "",
+      "class": "task",
+      "x": -1430.0,
+      "y": -140.0,
+      "w": 1430.0,
+      "h": 140.0
+    },
+    {
+      "id": "ew0K_Sm-rx6IgrEJtpmO-6",
+      "parent": "1",
+      "value": "",
+      "class": "task",
+      "x": -1430.0,
+      "y": -280.0,
+      "w": 1430.0,
+      "h": 140.0
+    },
+    {
+      "id": "ew0K_Sm-rx6IgrEJtpmO-7",
+      "parent": "1",
+      "value": "",
+      "class": "task",
+      "x": -1430.0,
+      "y": -420.0,
+      "w": 1430.0,
+      "h": 140.0
+    },
+    {
+      "id": "ew0K_Sm-rx6IgrEJtpmO-8",
+      "parent": "1",
+      "value": "",
+      "class": "task",
+      "x": -1430.0,
+      "y": -560.0,
+      "w": 1430.0,
+      "h": 140.0
+    },
+    {
+      "id": "ew0K_Sm-rx6IgrEJtpmO-9",
+      "parent": "1",
+      "value": "GTM",
+      "class": "task",
+      "x": -1430.0,
+      "y": -560.0,
+      "w": 80.0,
+      "h": 560.0
+    },
+    {
+      "id": "1cji76tMsnzFggS8WXTS-2",
+      "parent": "1",
+      "value": "",
+      "class": "task",
+      "x": -1120.0,
+      "y": -380.0,
+      "w": 120.0,
+      "h": 60.0
+    },
+    {
+      "id": "1cji76tMsnzFggS8WXTS-3",
+      "parent": "1",
+      "value": "",
+      "class": "task",
+      "x": -1110.0,
+      "y": -240.0,
+      "w": 120.0,
+      "h": 60.0
+    },
+    {
+      "id": "1cji76tMsnzFggS8WXTS-4",
+      "parent": "1",
+      "value": "",
+      "class": "task",
+      "x": -1120.0,
+      "y": -520.0,
+      "w": 120.0,
+      "h": 60.0
+    },
+    {
+      "id": "1cji76tMsnzFggS8WXTS-5",
+      "parent": "1",
+      "value": "",
+      "class": "task",
+      "x": -940.0,
+      "y": -520.0,
+      "w": 120.0,
+      "h": 60.0
+    },
+    {
+      "id": "1cji76tMsnzFggS8WXTS-6",
+      "parent": "1",
+      "value": "",
+      "class": "decision",
+      "x": -920.0,
+      "y": -400.0,
+      "w": 80.0,
+      "h": 80.0
+    },
+    {
+      "id": "1cji76tMsnzFggS8WXTS-7",
+      "parent": "1",
+      "value": "",
+      "class": "task",
+      "x": -760.0,
+      "y": -390.0,
+      "w": 120.0,
+      "h": 60.0
+    },
+    {
+      "id": "1cji76tMsnzFggS8WXTS-8",
+      "parent": "1",
+      "value": "",
+      "class": "task",
+      "x": -750.0,
+      "y": -240.0,
+      "w": 120.0,
+      "h": 60.0
+    },
+    {
+      "id": "1cji76tMsnzFggS8WXTS-12",
+      "parent": "1",
+      "value": "ELC IPC",
+      "class": "lane",
+      "x": -1300.0,
+      "y": -255.0,
+      "w": 140.0,
+      "h": 90.0
+    },
+    {
+      "id": "1cji76tMsnzFggS8WXTS-13",
+      "parent": "1cji76tMsnzFggS8WXTS-12",
+      "value": "INEXS",
+      "class": "text",
+      "x": 0.0,
+      "y": 26.0,
+      "w": 140.0,
+      "h": 26.0
+    },
+    {
+      "id": "1cji76tMsnzFggS8WXTS-14",
+      "parent": "1cji76tMsnzFggS8WXTS-12",
+      "value": "Buy Back 수출의뢰서",
+      "class": "text",
+      "x": 0.0,
+      "y": 52.0,
+      "w": 140.0,
+      "h": 38.0
+    }
+  ],
+  "edges": [
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-15",
+      "source": "lKX7Av5iq31AJz6Rz6cd-8",
+      "target": "lKX7Av5iq31AJz6Rz6cd-16",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-20",
+      "source": "lKX7Av5iq31AJz6Rz6cd-23",
+      "target": "lKX7Av5iq31AJz6Rz6cd-12",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-29",
+      "source": "lKX7Av5iq31AJz6Rz6cd-30",
+      "target": "lKX7Av5iq31AJz6Rz6cd-32",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-31",
+      "source": "lKX7Av5iq31AJz6Rz6cd-28",
+      "target": "lKX7Av5iq31AJz6Rz6cd-30",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-36",
+      "source": null,
+      "target": null,
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-39",
+      "source": null,
+      "target": "lKX7Av5iq31AJz6Rz6cd-37",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-42",
+      "source": "lKX7Av5iq31AJz6Rz6cd-43",
+      "target": "lKX7Av5iq31AJz6Rz6cd-45",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-44",
+      "source": "lKX7Av5iq31AJz6Rz6cd-41",
+      "target": "lKX7Av5iq31AJz6Rz6cd-43",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-48",
+      "source": "lKX7Av5iq31AJz6Rz6cd-49",
+      "target": null,
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-50",
+      "source": "lKX7Av5iq31AJz6Rz6cd-47",
+      "target": "lKX7Av5iq31AJz6Rz6cd-49",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-52",
+      "source": "lKX7Av5iq31AJz6Rz6cd-53",
+      "target": "lKX7Av5iq31AJz6Rz6cd-47",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-58",
+      "source": "lKX7Av5iq31AJz6Rz6cd-59",
+      "target": "lKX7Av5iq31AJz6Rz6cd-57",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-65",
+      "source": "lKX7Av5iq31AJz6Rz6cd-60",
+      "target": "lKX7Av5iq31AJz6Rz6cd-63",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-66",
+      "source": "lKX7Av5iq31AJz6Rz6cd-63",
+      "target": "lKX7Av5iq31AJz6Rz6cd-64",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-67",
+      "source": "lKX7Av5iq31AJz6Rz6cd-64",
+      "target": "lKX7Av5iq31AJz6Rz6cd-59",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-70",
+      "source": null,
+      "target": null,
+      "value": "YES"
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-71",
+      "source": null,
+      "target": null,
+      "value": "YES"
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-75",
+      "source": "lKX7Av5iq31AJz6Rz6cd-76",
+      "target": "lKX7Av5iq31AJz6Rz6cd-79",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-78",
+      "source": "lKX7Av5iq31AJz6Rz6cd-76",
+      "target": "lKX7Av5iq31AJz6Rz6cd-77",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-224",
+      "source": null,
+      "target": "lKX7Av5iq31AJz6Rz6cd-222",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-229",
+      "source": "lKX7Av5iq31AJz6Rz6cd-222",
+      "target": "lKX7Av5iq31AJz6Rz6cd-228",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-88",
+      "source": "lKX7Av5iq31AJz6Rz6cd-90",
+      "target": "lKX7Av5iq31AJz6Rz6cd-100",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-89",
+      "source": "lKX7Av5iq31AJz6Rz6cd-90",
+      "target": "lKX7Av5iq31AJz6Rz6cd-110",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-103",
+      "source": "lKX7Av5iq31AJz6Rz6cd-104",
+      "target": "lKX7Av5iq31AJz6Rz6cd-105",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-109",
+      "source": "lKX7Av5iq31AJz6Rz6cd-110",
+      "target": "lKX7Av5iq31AJz6Rz6cd-112",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-113",
+      "source": "lKX7Av5iq31AJz6Rz6cd-114",
+      "target": "lKX7Av5iq31AJz6Rz6cd-117",
+      "value": ""
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-35",
+      "source": "lKX7Av5iq31AJz6Rz6cd-117",
+      "target": "lKX7Av5iq31AJz6Rz6cd-120",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-118",
+      "source": "lKX7Av5iq31AJz6Rz6cd-110",
+      "target": "lKX7Av5iq31AJz6Rz6cd-114",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-119",
+      "source": "lKX7Av5iq31AJz6Rz6cd-120",
+      "target": "lKX7Av5iq31AJz6Rz6cd-112",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-258",
+      "source": "lKX7Av5iq31AJz6Rz6cd-233",
+      "target": null,
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-261",
+      "source": null,
+      "target": "lKX7Av5iq31AJz6Rz6cd-90",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-251",
+      "source": "lKX7Av5iq31AJz6Rz6cd-237",
+      "target": null,
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-252",
+      "source": "lKX7Av5iq31AJz6Rz6cd-239",
+      "target": "lKX7Av5iq31AJz6Rz6cd-243",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-255",
+      "source": "lKX7Av5iq31AJz6Rz6cd-244",
+      "target": "lKX7Av5iq31AJz6Rz6cd-253",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-259",
+      "source": "lKX7Av5iq31AJz6Rz6cd-246",
+      "target": "lKX7Av5iq31AJz6Rz6cd-90",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-249",
+      "source": "lKX7Av5iq31AJz6Rz6cd-244",
+      "target": null,
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-260",
+      "source": "lKX7Av5iq31AJz6Rz6cd-253",
+      "target": "lKX7Av5iq31AJz6Rz6cd-90",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-212",
+      "source": "lKX7Av5iq31AJz6Rz6cd-120",
+      "target": null,
+      "value": ""
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-32",
+      "source": "lKX7Av5iq31AJz6Rz6cd-243",
+      "target": "lKX7Av5iq31AJz6Rz6cd-244",
+      "value": ""
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-37",
+      "source": "lKX7Av5iq31AJz6Rz6cd-112",
+      "target": "lKX7Av5iq31AJz6Rz6cd-208",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-126",
+      "source": "lKX7Av5iq31AJz6Rz6cd-125",
+      "target": "lKX7Av5iq31AJz6Rz6cd-213",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-257",
+      "source": null,
+      "target": "lKX7Av5iq31AJz6Rz6cd-233",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-133",
+      "source": null,
+      "target": "lKX7Av5iq31AJz6Rz6cd-132",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-144",
+      "source": "lKX7Av5iq31AJz6Rz6cd-143",
+      "target": "lKX7Av5iq31AJz6Rz6cd-142",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-146",
+      "source": "lKX7Av5iq31AJz6Rz6cd-147",
+      "target": "lKX7Av5iq31AJz6Rz6cd-152",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-154",
+      "source": "lKX7Av5iq31AJz6Rz6cd-152",
+      "target": "lKX7Av5iq31AJz6Rz6cd-153",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-159",
+      "source": "lKX7Av5iq31AJz6Rz6cd-37",
+      "target": "lKX7Av5iq31AJz6Rz6cd-22",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-160",
+      "source": "lKX7Av5iq31AJz6Rz6cd-12",
+      "target": "lKX7Av5iq31AJz6Rz6cd-41",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-161",
+      "source": "lKX7Av5iq31AJz6Rz6cd-86",
+      "target": "lKX7Av5iq31AJz6Rz6cd-134",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-163",
+      "source": "lKX7Av5iq31AJz6Rz6cd-18",
+      "target": null,
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-164",
+      "source": "cs2tG7kjCkQaKrPuqIpl-3",
+      "target": "lKX7Av5iq31AJz6Rz6cd-46",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-165",
+      "source": "lKX7Av5iq31AJz6Rz6cd-45",
+      "target": "lKX7Av5iq31AJz6Rz6cd-60",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-166",
+      "source": "lKX7Av5iq31AJz6Rz6cd-34",
+      "target": "lKX7Av5iq31AJz6Rz6cd-13",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-167",
+      "source": "lKX7Av5iq31AJz6Rz6cd-79",
+      "target": "lKX7Av5iq31AJz6Rz6cd-86",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-168",
+      "source": "lKX7Av5iq31AJz6Rz6cd-34",
+      "target": "lKX7Av5iq31AJz6Rz6cd-24",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-169",
+      "source": "lKX7Av5iq31AJz6Rz6cd-128",
+      "target": "lKX7Av5iq31AJz6Rz6cd-140",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-170",
+      "source": "lKX7Av5iq31AJz6Rz6cd-139",
+      "target": "lKX7Av5iq31AJz6Rz6cd-147",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-256",
+      "source": "lKX7Av5iq31AJz6Rz6cd-132",
+      "target": "lKX7Av5iq31AJz6Rz6cd-237",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-227",
+      "source": "lKX7Av5iq31AJz6Rz6cd-221",
+      "target": null,
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-230",
+      "source": "lKX7Av5iq31AJz6Rz6cd-228",
+      "target": "lKX7Av5iq31AJz6Rz6cd-125",
+      "value": ""
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-27",
+      "source": "cs2tG7kjCkQaKrPuqIpl-24",
+      "target": "lKX7Av5iq31AJz6Rz6cd-76",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-218",
+      "source": "lKX7Av5iq31AJz6Rz6cd-208",
+      "target": "lKX7Av5iq31AJz6Rz6cd-128",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-171",
+      "source": "lKX7Av5iq31AJz6Rz6cd-172",
+      "target": "lKX7Av5iq31AJz6Rz6cd-221",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-173",
+      "source": "lKX7Av5iq31AJz6Rz6cd-57",
+      "target": "lKX7Av5iq31AJz6Rz6cd-172",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-174",
+      "source": "lKX7Av5iq31AJz6Rz6cd-175",
+      "target": "lKX7Av5iq31AJz6Rz6cd-28",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-176",
+      "source": "lKX7Av5iq31AJz6Rz6cd-214",
+      "target": "lKX7Av5iq31AJz6Rz6cd-175",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-177",
+      "source": "lKX7Av5iq31AJz6Rz6cd-13",
+      "target": "lKX7Av5iq31AJz6Rz6cd-179",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-178",
+      "source": "lKX7Av5iq31AJz6Rz6cd-179",
+      "target": "lKX7Av5iq31AJz6Rz6cd-183",
+      "value": ""
+    },
+    {
+      "id": "cs2tG7kjCkQaKrPuqIpl-26",
+      "source": null,
+      "target": "cs2tG7kjCkQaKrPuqIpl-24",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-182",
+      "source": "lKX7Av5iq31AJz6Rz6cd-183",
+      "target": "lKX7Av5iq31AJz6Rz6cd-81",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-187",
+      "source": "lKX7Av5iq31AJz6Rz6cd-37",
+      "target": "lKX7Av5iq31AJz6Rz6cd-184",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-188",
+      "source": "lKX7Av5iq31AJz6Rz6cd-184",
+      "target": "lKX7Av5iq31AJz6Rz6cd-53",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-197",
+      "source": "lKX7Av5iq31AJz6Rz6cd-24",
+      "target": "lKX7Av5iq31AJz6Rz6cd-195",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-232",
+      "source": "lKX7Av5iq31AJz6Rz6cd-198",
+      "target": "lKX7Av5iq31AJz6Rz6cd-86",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-199",
+      "source": "lKX7Av5iq31AJz6Rz6cd-77",
+      "target": "lKX7Av5iq31AJz6Rz6cd-198",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-203",
+      "source": "lKX7Av5iq31AJz6Rz6cd-204",
+      "target": "lKX7Av5iq31AJz6Rz6cd-104",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-207",
+      "source": "lKX7Av5iq31AJz6Rz6cd-99",
+      "target": "lKX7Av5iq31AJz6Rz6cd-204",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-217",
+      "source": "lKX7Av5iq31AJz6Rz6cd-84",
+      "target": "lKX7Av5iq31AJz6Rz6cd-172",
+      "value": ""
+    },
+    {
+      "id": "lKX7Av5iq31AJz6Rz6cd-83",
+      "source": "lKX7Av5iq31AJz6Rz6cd-216",
+      "target": "cs2tG7kjCkQaKrPuqIpl-24",
+      "value": ""
+    }
+  ]
+}
