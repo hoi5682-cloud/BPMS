@@ -3,10 +3,20 @@ type: progress
 initiative: bpms
 mode: 수요형
 status: 생산
-updated: 2026-07-22
+updated: 2026-09-07
 ---
 
 # bpms — 진행
+
+## 현재 상태 (핸드오프)
+
+> 최종 갱신: 2026-09-07 · 작성 도구: Codex
+
+- **확정한 결정**: R1 해피패스를 먼저 완성하고, 확정된 E안(레인 컬러+시스템 배지+전체 도형 어휘)을 기준으로 사용한다.
+- **수정한 파일**: `README.md`와 `AGENTS.md`를 추가해 사람·Codex 진입점과 검증 규칙을 정리하고 `progress.md`를 현재 인수인계 형식으로 보완.
+- **확인한 결과**: BPMS가 상위 워크스페이스와 분리된 독립 Git 저장소이며 `main...origin/main` 상태임을 확인.
+- **남은 문제**: 아래 `다음 한 걸음`의 프로세스 내용 확인 질문 3건은 여전히 사용자 답변이 필요.
+- **다음 작업**: 질문 3건에 답한 뒤 확정된 해피패스를 E안 스타일로 Figma에 완성.
 
 ## 목표
 SAP 글로벌 시스템 통합을 위해 Repair 등 서비스 비즈니스의 AS-IS 프로세스를, 정석 BPMN/BPMS 방법론에 근거해 한눈에 읽히고 정확하게 문서화한다 — IT팀 fit&gap 분석의 기준 자료이자, 향후 SAP TO-BE 시나리오 설계·오류 검증의 척도로 남긴다.
@@ -97,6 +107,7 @@ SAP 글로벌 시스템 통합을 위해 Repair 등 서비스 비즈니스의 AS
 10. 매출: [문서]Billing/AR회계전표 → SAP VF02 Bulk Billing → SAP SD0430 Billing Form Creation
 
 ## 로그
+- 2026-09-07 Claude Code·Codex 공동 작업을 위한 README·AGENTS 진입점과 핸드오프 상태 추가
 - 2026-07-22 GitHub 공개 저장소(hoi5682-cloud/bpms) 생성, `10-projects/12-bpms`로 클론해 워크스페이스 프로젝트로 편입
 - 2026-07-22 프레임 확정 (drive-frame)
 - 2026-07-22 범위 통과 — R1 하나 Figma 재구성 + 기준 확립으로 이번 라운드 범위 확정 (drive-scope)
